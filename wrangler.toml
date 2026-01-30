@@ -1,0 +1,15 @@
+name = "micromeditationurse"
+compatibility_date = "2025-01-15"
+
+# Build configuration for Next.js static export
+[build]
+command = "npm run build"
+
+# Pages deployment - Next.js outputs to /out with static export
+[site]
+bucket = "./out"
+
+# Custom domain (optional)
+# routes = [
+#   { pattern = "micromeditationurse.sites.flowtivity.com.au", custom_domain = true }
+# ]
